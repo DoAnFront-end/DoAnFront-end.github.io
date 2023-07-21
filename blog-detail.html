@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog-detail</title>
+    <link rel="stylesheet" href="css/all.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/jquery-ui.min.css">
+	<link rel="stylesheet" href="themes/default/default.css">
+    <link rel="stylesheet" href="css/nivo-slider.css">
+	<link rel="stylesheet" href="css/owl.carousel.css">
+	<link rel="stylesheet" href="css/owl.theme.default.css">
+	<link rel="stylesheet" href="css/style-1.css">
+</head>
+<body>
+    <header>
+        <div class="bg-den">
+            <div class="container">
+                
+                    <div class="row">
+                     
+                
+                        <div class="col-lg-4 order-lg-1">
+                            <div class="nav-left">
+                            <div class="mt-4">
+                        
+                                
+                                <h5><i class="fa-solid fa-phone fa-sm nau mx-2 mt-2"></i> Customer Care: <span style="color:#d9d9d9">(+02) 235 561 112</span></h5>  
+                    </div>
+                    
+                    <div class="row">
+                    <div class="col-6 mt-4">
+                       
+                        <h5> <i class="fa-solid fa-shipping-fast fa-sm nau mx-2 mt-2"></i>Free Shipping</h5>
+                    </div>
+                    <div class="col-6 mt-4">
+                        
+                        <h5><i class="fa-solid fa-gift fa-sm nau mx-2 mt-2"></i>Special Offer</h5>
+                    </div>
+                </div>
+                </div>
+            </div>
+            
+                <div class="col-lg-4 order-lg-2 col-md-6 order-md-1 col-12 text-center">
+                    <img src="images/logo.png" alt="" class="w-50">
+                </div>
+                <div class="col-lg-4 order-lg-3 col-md-6 order-md-2">
+                    <div class="nav-right">
+                        <div class="row">
+                    <div class="col-7 mt-4">
+                        
+                        <h5><i class="fa-solid fa-user fa-sm nau mt-2"></i>Sign In & Join Free</h5>
+                    </div>
+                    <div class="col-5 mt-4">
+                        
+                        <h5><i class="fa-solid fa-shopping-cart fa-sm nau mt-2"></i>My Cart</h5>
+                    </div>
+                    </div>
+                    <div class="form-search">
+                    <div class="row">
+                        <div class="col-10">
+                            <input type="text" placeholder="Search product...">
+                        </div>
+                        <div class="col-2 mx-0">
+                           <button><i class="fa-solid fa-search"></i></button> 
+                        </div>
+                    
+                </div>
+            </div>
+                </div>
+                </div>
+                
+            
+        </div>
+        </div>
+        <div class="mob mt-3 text-center">
+            <div class="container">     
+                <div class="col-12">
+                    <div class="row">
+                    <button id="btn-nav"><i class="fa-solid fa-bars"></i></button>
+                    <button id="btn-search"><i class="fa-solid fa-search"></i></button>
+                    <button id="btn-user"><i class="fa-solid fa-user"></i></button>                   
+                    <button id="btn-shopping"><i class="fa-solid fa-shopping-cart"></i></button>                          
+                            <div class="nav-search">
+                            <div class="row">
+                                <div class="col-10">
+                                    <input type="text" placeholder="search">
+                                </div>
+                                <div class="col-2">
+                                    <button><i class="fa-solid fa-search"></i></button>
+                                </div>
+                            </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>       
+        <div class="bg-nau">
+            <div class="container">
+                <div class="row">
+            <div class="col-9">
+                <nav class="nav-main">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Shop</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Media</a></li>
+                        <li><a href="#">ShortCode</a></li>
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">Contact Us</a></li>
+    
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-3 mt-2 text-end">
+                <p><i class="fa-solid fa-bullhorn fa-lg mx-3"></i>Wow!! Additional Offer</p>
+            </div>
+        </div>
+        </div>
+    </div>
+    
+    </header>
+    <div class="bg-banner-blog">
+        <h3>Blog</h3>
+        <p>Home / Blog / Anyway REPS is a NYC agency representing photographers</p>
+    </div>
+    <div class="container">
+        <div class="row mt-4">
+            <div class="col-lg-3 col-md-12 col-12 order-lg-2 order-md-2 order-2">
+                <button id="btn-post"><h4>Recent Posts<i class="fa-solid fa-angle-down fa-sm"></i></h4></button>
+				<div class="recent-post">
+					<h4>Recent Posts</h4>
+					<li><a href="#">Post 1</a></li>
+					<li><a href="#">Post 2</a></li>
+					<li><a href="#">Post 3</a></li>
+					<li><a href="#">Post 4</a></li>
+					<li><a href="#">Post 5</a></li>
+				</div>			
+                <button id="btn-cmt"><h4>Recent Comments<i class="fa-solid fa-angle-down fa-sm"></i></h4></button>
+				<div class="recent-cmt">
+					<h4>Recent Comments</h4>
+					<li><a href="#">Comment 1</a></li>
+					<li><a href="#">Comment 2</a></li>
+					<li><a href="#">Comment 3</a></li>
+					<li><a href="#">Comment 4</a></li>
+					<li><a href="#">Comment 5</a></li>
+				</div>				
+                <button id="btn-archives"><h4>Archives<i class="fa-solid fa-angle-down fa-sm "></i></h4></button>
+				<div class="archives">
+					<h4>Archives</h4>
+					<li><a href="#">February 2017</a></li>
+					<li><a href="#">January 2016</a></li>
+					<li><a href="#">December 2020</a></li>
+					<li><a href="#">April 2019</a></li>
+					<li><a href="#">March 2018</a></li>
+				</div>			
+                <button id="btn-category"><h4>Categories<i class="fa-solid fa-angle-down fa-sm"></i></h4></button>
+				<div class="category">
+					<h4>Categories</h4>
+					<li><a href="#">Categories 2</a></li>
+					<li><a href="#">Categories 3</a></li>
+					<li><a href="#">Categories 4</a></li>
+					<li><a href="#">Categories 5</a></li>
+				</div>			
+                <button id="btn-meta"><h4>Meta<i class="fa-solid fa-angle-down fa-sm"></i></h4></button>
+				<div class="meta">
+					<h4>Meta</h4>
+					<li><a href="#">Log In</a></li>
+					<li><a href="#">Entries Feed</a></li>
+					<li><a href="#">Comments Feed</a></li>
+					<li><a href="#">WordPress.com</a></li>	
+				</div>
+         
+			</div>
+            <div class="col-lg-9 col-md-12 col-12 order-lg-1 order-md-1 oder-1">
+                <div class="blog-main">
+                    <h3>Anyway REPS is a NYC agency representing photographers</h3>
+                    
+						<p class="nhat"><i class="fas fa-edit"></i><span>By Admin|</span>
+							<i class="fa-solid fa-tags fa-sm"></i><span>Counge, Denum      |</span>
+							<i class="fa-solid fa-folder fa-sm"></i><span>Uncategorized</span>
+						
+						</p>
+						
+						
+						
+                    <img src="images/Fly-With-These-Carrot-Cake-Cookies-584x347_t.jpg" alt="" class="w-100">
+                    <p>We love these outfits styled by Phyllis Evans Baker for a Calvin Klein collaboration with the Marie Claire & Esquire teams. You can find mas on their website, primed for purchase. This is your first post. Edit or delete it, then start writing! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
+                       <p> At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+                </div>
+                <div class="admin">
+                <i class="fa-solid fa-user-edit fa-4x"></i>
+                <h4>About admin</h4>
+                <a href="#">View all posts by admin →</a>
+                <div class="row btn-lr mt-4">
+					<button class="btn-l"><p><i class="fa-solid fa-angle-left"></i>Post Format: Lorem ipsum dolor sit amet</p></button>
+					<button class="btn-r"><p>Post Format: Lorem ipsum dolor sit amet<i class="fa-solid fa-angle-right"></i></p></button>
+                   
+            </div>
+            </div>
+                <h4 class="mt-4">Related Posts</h4>
+                <div class="owl-carousel owl-theme" id="blog">
+                    <div class="blog-item text-center">
+                        <div class="text-nau">
+                            <p>November 26th, 2017</p>
+                        </div>
+                        <ul class="pr-icon">                            
+                            <li><i class="fa-solid fa-plus fa-lg"></i></li>
+                            <li><i class="fa-solid fa-link fa-lg"></i></li>                    
+                        </ul>
+                        <img src="images/Pre-Workout-Energy-Foods-584x347_t.jpg" alt="" >           
+                        <div class="blog-text">
+                        <h5>Thai Large Cherries</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur </p>
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+                    <div class="blog-item text-center">
+                        <div class="text-nau">
+                            <p>November 5th, 2017</p>
+                        </div>
+                        <ul class="pr-icon">                            
+                            <li><i class="fa-solid fa-plus fa-lg"></i></li>
+                            <li><i class="fa-solid fa-link fa-lg"></i></li>                    
+                        </ul>
+                        <img src="images/Protein-Buckeye-Balls-584x347_t.jpg" alt="">
+                        <div class="blog-text">
+                        <h5>Thai Large Cherries</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur </p>
+                        <a href="#">Read More</a>
+                    </div>
+                    </div>
+                    <div class="blog-item text-center">
+                        <div class="text-nau">
+                            <p>November 7th, 2017</p>
+                        </div>
+                        <ul class="pr-icon">                            
+                            <li><i class="fa-solid fa-plus fa-lg"></i></li>
+                            <li><i class="fa-solid fa-link fa-lg"></i></li>                    
+                        </ul>
+                        <img src="images/Sweet-Potato-Chickpea-Stew-584x347_t.jpg" alt="">
+                        <div class="blog-text">
+                        <h5>Thai Large Cherries</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur </p>
+                        <a href="#">Read More</a>
+                    </div>
+                    </div>
+                    <div class="blog-item text-center">
+                        <div class="text-nau">
+                            <p>April 1st, 2017</p>
+                        </div>
+                        <ul class="pr-icon">                            
+                            <li><i class="fa-solid fa-plus fa-lg"></i></li>
+                            <li><i class="fa-solid fa-link fa-lg"></i></li>                    
+                        </ul>
+                        <img src="images/Loaded-Breakfast-Sweet-Potato-584x347_t.jpg" alt="">
+                        <div class="blog-text">
+                        <h5>Thai Large Cherries</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur </p>
+                        <a href="#">Read More</a>
+                    </div>
+                    </div>
+                    <div class="blog-item text-center">
+                        <div class="text-nau">
+                            <p>December 20th, 2017</p>
+                        </div>
+                        <ul class="pr-icon">                            
+                            <li><i class="fa-solid fa-plus fa-lg"></i></li>
+                            <li><i class="fa-solid fa-link fa-lg"></i></li>                    
+                        </ul>
+                        <img src="images/Refreshing-Coconut-Water-and-Fruit-Run-Pops-584x347_t.jpg" alt="">
+                       <div class="blog-text">
+                        <h5>Thai Large Cherries</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur </p>
+                        <a href="#">Read More</a>
+                    </div>
+                    </div>
+                    <div class="blog-item text-center">
+                        <div class="text-nau">
+                            <p>January 18th, 2017</p>
+                        </div>
+                        <ul class="pr-icon">                            
+                            <li><i class="fa-solid fa-plus fa-lg"></i></li>
+                            <li><i class="fa-solid fa-link fa-lg"></i></li>                    
+                        </ul>
+                        <img src="images/Banana-Chocolate-Ice-Cream-584x347_t.jpg" alt="">
+                        <div class="blog-text">
+                        <h5>Thai Large Cherries</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur </p>
+                        <a href="#">Read More</a>
+                    </div>
+                    </div>
+                    <div class="blog-item text-center">
+                        <div class="text-nau">
+                            <p>January 18th, 2017</p>
+                        </div>
+                        <ul class="pr-icon">                            
+                            <li><i class="fa-solid fa-plus fa-lg"></i></li>
+                            <li><i class="fa-solid fa-link fa-lg"></i></li>                    
+                        </ul>
+                        <img src="images/Banana-Nut-Energy-Bars-584x347_t.jpg" alt="">
+                        <div class="blog-text">
+                        <h5>Thai Large Cherries</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur </p>
+                        <a href="#">Read More</a>
+                    </div>
+        
+                    </div>
+                    <div class="blog-item text-center">
+                        <div class="text-nau">
+                            <p>January 18th, 2017</p>
+                        </div>
+                        <ul class="pr-icon">                            
+                            <li><i class="fa-solid fa-plus fa-lg"></i></li>
+                            <li><i class="fa-solid fa-link fa-lg"></i></li>                    
+                        </ul>
+                        <img src="images/Black-Bean-Veggie-Loaded-Burgers-584x347_t.jpg" alt="">
+                        <div class="blog-text">
+                        <h5>Thai Large Cherries</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur </p>
+                        <a href="#">Read More</a>
+                    </div>
+        
+                    </div>
+                    <div class="blog-item text-center">
+                        <div class="text-nau">
+                            <p>January 18th, 2017</p>
+                        </div>
+                        <ul class="pr-icon">                            
+                            <li><i class="fa-solid fa-plus fa-lg"></i></li>
+                            <li><i class="fa-solid fa-link fa-lg"></i></li>                    
+                        </ul>
+                        <img src="images/Marathon-Recovery-Fish-Tacos-584x347_t.jpg" alt="">
+                       <div class="blog-text">
+                        <h5>Thai Large Cherries</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur </p>
+                        <a href="#">Read More</a>
+                    </div>
+        
+                    </div>
+                    <div class="blog-item text-center">
+                        <div class="text-nau">
+                            <p>January 18th, 2017</p>
+                        </div>
+                        <ul class="pr-icon">                            
+                            <li><i class="fa-solid fa-plus fa-lg"></i></li>
+                            <li><i class="fa-solid fa-link fa-lg"></i></li>                    
+                        </ul>
+                        <img src="images/Fly-With-These-Carrot-Cake-Cookies-584x347_t.jpg" alt="">
+                        <div class="blog-text">
+                        <h5>Thai Large Cherries</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur </p>
+                        <a href="#">Read More</a>
+                    </div>
+                    </div>
+                    <div class="blog-item text-center">
+                        <div class="text-nau">
+                            <p>January 18th, 2017</p>
+                        </div>
+                        <ul class="pr-icon">                            
+                            <li><i class="fa-solid fa-plus fa-lg"></i></li>
+                            <li><i class="fa-solid fa-link fa-lg"></i></li>                    
+                        </ul>
+                        <img src="images/Gut-Healthy-Green-Smoothie-584x347_t.jpg" alt="">
+                        <div class="blog-text">
+                        <h5>Thai Large Cherries</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur </p>
+                        <a href="#">Read More</a>
+                    </div>
+        
+                    </div>
+                    <div class="blog-item text-center">
+                        <div class="text-nau">
+                            <p>January 18th, 2017</p>
+                        </div>
+                        <ul class="pr-icon">                            
+                            <li><i class="fa-solid fa-plus fa-lg"></i></li>
+                            <li><i class="fa-solid fa-link fa-lg"></i></li>                    
+                        </ul>
+                        <img src="images/Refreshing-Coconut-Water-and-Fruit-Run-Pops-584x347_t.jpg" alt="">
+                       <div class="blog-text">
+                        <h5>Thai Large Cherries</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur </p>
+                        <a href="#">Read More</a>
+                    </div>
+        
+                    </div>
+                    <div class="blog-item text-center">
+                        <div class="text-nau">
+                            <p>January 18th, 2017</p>
+                        </div>
+                        <ul class="pr-icon">                            
+                            <li><i class="fa-solid fa-plus fa-lg"></i></li>
+                            <li><i class="fa-solid fa-link fa-lg"></i></li>                    
+                        </ul>
+                        <img src="images/Sweet-Potato-Chickpea-Stew-584x347_t.jpg" alt="">
+                        <div class="blog-text">
+                        <h5>Thai Large Cherries</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur </p>
+                        <a href="#">Read More</a>
+                    </div>
+        
+                    </div>
+        </div>
+        <div class="reply">
+            <h4>Leave a Reply</h4>
+            <h6>You must be logged in to post a comment.</h6>
+        </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container mt-3">
+            <div class="row">
+                <div class="col-lg-2 col-md-12 col-12">
+                    <div class="accordion" id="acc">
+                        <div class="accordion-item">
+                           <h2 class="accordion-header">
+                            <button class="accordion-button" data-bs-target="#about" data-bs-toggle="collapse">About</button>
+                           </h2>
+                           <div class="accordion-body collapse accordion-collapse about show" id="about">
+                            <ul class="nav-footer">
+                                <li><a href="#">Contact Us</a></li>
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Careers</a></li>
+                                <li><a href="#">Flipkart Stories</a></li>
+                                <li><a href="#">Press</a></li>
+                            </ul>
+                           </div>   
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-12 col-12">
+                    <div class="accordion">
+                        <div class="accordion-item">
+                           <h2 class="accordion-header">
+                            <button class="accordion-button" data-bs-target="#help" data-bs-toggle="collapse">Help</button>
+                           </h2>
+                           <div class="accordion-body collapse accordion-collapse show  help" id="help">
+                            <ul class="nav-footer">
+                                <li><a href="#">Payments</a></li>
+                                <li><a href="#">Shipping</a></li>
+                                <li><a href="#">Cancellation & Returns</a></li>
+                                <li><a href="#">FAQ Report</a></li>
+                                <li><a href="#">Infringemen</a></li>
+                            </ul>
+                           </div>   
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-12 col-12">
+                    <div class="accordion">
+                        <div class="accordion-item">
+                           <h2 class="accordion-header">
+                            <button class="accordion-button" data-bs-target="#info" data-bs-toggle="collapse" >Information</button>
+                           </h2>
+                           <div class="accordion-body collapse accordion-collapse show info" id="info">
+                            <ul class="nav-footer">
+                                <li><a href="#">Return Policy</a></li>
+                                <li><a href="#">Term Of Use</a></li>
+                                <li><a href="#">Security</a></li>
+                                <li><a href="#">Privacy</a></li>
+                                <li><a href="#">Sitemap</a></li>
+                            </ul>
+                           </div>   
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-12 col-12">
+                    <div class="accordion">
+                        <div class="accordion-item">
+                           <h2 class="accordion-header">
+                            <button class="accordion-button" data-bs-target="#addr" data-bs-toggle="collapse" >Address</button>
+                           </h2>
+                           <div class="accordion-body collapse accordion-collapse show addr" id="addr">
+                            <ul class="nav-footer">
+                                <li><i class="fa-solid fa-map-marked fa-lg nau"></i>184 Lorem Rd, St<br> Ipsum Road PLC 3021,London </li>	
+                                <li><i class="fa-solid fa-envelope fa-lg nau"></i>demo@example.com</li>
+                                <li><i class="fa-solid fa-headset fa-lg nau"></i>7562365987/<br> 12365698</li>
+                            </ul>
+                           </div>   
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-12 col-12">
+                    <div class="accordion">
+                        <div class="accordion-item">
+                           <h2 class="accordion-header">
+                            <button class="accordion-button" data-bs-target="#secure" data-bs-toggle="collapse" >Secured by</button>
+                           </h2>
+                           <div class="accordion-body collapse accordion-collapse show  secure" id="secure">
+                            <ul class="nav-footer">
+                                <div class="d-flex">
+                                    <img src="images/footer-logo1.png" alt="" class="mx-2">
+                                    <img src="images/footer-logo2.png" alt="">
+                                    </div>
+                                    <h4>Follow Us</h4>
+                                    <i class="fa-brands fa-facebook-f fa-sm trang mx-3"></i>
+                                    <i class="fa-brands fa-twitter fa-sm trang mx-3"></i>
+                                    <i class="fa-brands fa-linkedin-in fa-sm trang mx-3"></i>
+                                    <i class="fa-brands fa-google-plus fa-sm trang mx-3"></i>
+                            </ul>
+                           </div>   
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </footer>
+<script src="js/jquery-3.7.0.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/owl.carousel.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script> 
+	
+    $('#btn-nav').click(function(){
+        $('.nav-main').toggle("fade",500);
+    })
+    $('#btn-search').click(function(){
+		
+        $('.nav-search').toggle("fade",500);
+    })
+    $('#btn-post').click(function(){
+        $('.recent-post').toggle("blind",500);
+    })
+	 $('#btn-cmt').click(function(){
+        $('.recent-cmt').toggle("blind",500);
+    })
+	 $('#btn-archives').click(function(){
+        $('.archives').toggle("blind",500);
+    })
+	 $('#btn-category').click(function(){
+        $('.category').toggle("blind",500);
+    })
+	 $('#btn-meta').click(function(){
+        $('.meta').toggle("blind",500);
+    })
+    $(document).ready(function() {
+      $('#cat').owlCarousel({
+        loop: true,
+        margin: 10,
+        responsiveClass: true,
+        responsive: {
+          0: {
+            items: 1,
+            nav: true
+          },
+          600: {
+            items: 3,
+            nav: false
+          },
+          1000: {
+            items: 6,
+            nav: true,
+            loop: true,
+            margin: 20
+          }
+        }
+      })
+    })
+    $(document).ready(function() {
+      $('#tay').owlCarousel({
+        loop: true,
+        margin: 10,
+        responsiveClass: true,
+        responsive: {
+          0: {
+            items: 1,
+            nav: true
+          },
+          600: {
+            items: 3,
+            nav: false
+          },
+          1000: {
+            items: 4,
+            nav: true,
+            loop: true,
+            margin: 20
+          }
+        }
+      })
+    })
+    $(document).ready(function() {
+      $('#banner').owlCarousel({
+        loop: true,
+        margin: 10,
+        responsiveClass: true,
+        responsive: {
+          0: {
+            items: 1,
+            nav: true
+          },
+          600: {
+            items: 1,
+            nav: false
+          },
+          1000: {
+            items: 1,
+            nav: true,
+            loop: true,
+            margin: 20
+          }
+        }
+      })
+    })
+    $(document).ready(function() {
+      $('#blog').owlCarousel({
+        loop: true,
+        margin: 10,
+        responsiveClass: true,
+        responsive: {
+          0: {
+            items: 1,
+            nav: true
+          },
+          600: {
+            items: 2,
+            nav: false
+          },
+          1000: {
+            items: 2,
+            nav: true,
+            loop: true,
+            margin: 20
+          }
+        }
+      })
+    })
+    $(window).ready(function(){
+        var chieucao=$('.img-2').height();
+        $('.pr-img').height(chieucao);
+        var h=$('.img-2').height();
+        $('.pr-item').height(h);
+        var pr=$('.hinh-2').height();
+        $('.tay-item').height(pr);
+        var blog=$('.img-1').height();
+        $('.pr-blog').height(blog);
+        var blog_item=$('.blog-1').height();
+        $('.blog-item').height(blog_item);		
+    })
+    $(window).resize(function(){
+        var chieucao=$('.img-2').height();
+        $('.pr-img').height(chieucao);
+        var h=$('.img-2').height();
+        $('.pr-item').height(h);
+        var pr=$('.hinh-2').height();
+        $('.tay-item').height(pr);	
+        var blog=$('.img-1').height();e
+        $('.pr-blog').height(blog);
+        var blog_item=$('.blog-1').height();
+        $('.blog-item').height(blog_item);			
+    })
+
+    // $(window).ready(function(){
+    //     var chieurong=$(window).width();
+    //     if(chieurong<992)
+    //         $('.about').attr('id','about')     
+    //     else
+    //         $('.about').removeAttr('id','none')         
+    // })
+    // $(window).ready(function(){
+    //     var chieurong=$(window).width();
+    //     if(chieurong<992)
+    //         $('.help').attr('id','help')     
+    //     else
+    //         $('.help').removeAttr('id','none')         
+    // })
+    // $(window).ready(function(){
+    //     var chieurong=$(window).width();
+    //     if(chieurong<992)
+    //         $('.info').attr('id','info')     
+    //     else
+    //         $('.info').removeAttr('id','none')         
+    // })
+    // $(window).ready(function(){
+    //     var chieurong=$(window).width();
+    //     if(chieurong<992)
+    //         $('.addr').attr('id','addr')     
+    //     else
+    //         $('.addr').removeAttr('id','none')         
+    // })
+    // $(window).ready(function(){
+    //     var chieurong=$(window).width();
+    //     if(chieurong<992)
+    //         $('.secure').attr('id','secure')     
+    //     else
+    //         $('.secure').removeAttr('id','none')         
+    // })
+</script>
+</body>
+</html>
