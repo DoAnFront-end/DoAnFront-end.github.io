@@ -267,7 +267,7 @@ footer{
 #btn-nav{
 	position: absolute;
 	top:-2px;
-	left:100px;
+	left:20%;
 	border:none;
 	background: none;
 	width: 50px;
@@ -282,7 +282,7 @@ footer{
 #btn-user{
 	position: absolute;
 	top:-2px;
-	left:150px;
+	left:35%;
 	border:none;
 	background: none;
 	width: 50px;
@@ -297,7 +297,7 @@ footer{
 #btn-shopping{
 	position: absolute;
 	top:-2px;
-	left:200px;
+	left:50%;
 	border:none;
 	background: none;
 	width: 50px;
@@ -312,7 +312,7 @@ footer{
 #btn-search{
 	position: absolute;
 	top:-2px;
-	left:250px;
+	left:65%;
 	border:none;
 	background: none;
 	width: 50px;
@@ -677,6 +677,8 @@ footer{
 .tay-item{
 	position: relative;
 }
+#tay .owl-dots, #blog .owl-dots{display:none;}
+#banner .owl-nav{display:none;}
 
 .hinh-1{
 	position: absolute;
@@ -1558,7 +1560,7 @@ font-family: Poppins-regular;
 	.logo{text-align: left;}
 	.logo img{width:70%;}
 	/* #btn-nav{display: block;} */
-	.sub_banner .text-banner-1, .sub_banner .text-banner-4{top:35px;}
+	.sub_banner .text-banner-1, .sub_banner .text-banner-4{top:15px;}
 	.sub_banner .text-banner-3,.sub_banner .text-banner-2{top:20px;}
 	.sub_banner .text-banner-3 h1, .sub_banner .text-banner-2 h1{
 		font-size: 30px;
@@ -1630,6 +1632,7 @@ font-family: Poppins-regular;
 		display: flex;
 		line-height: 45px;
 	}
+	/* .bg-nau{display:none;} */
 	}
 
 @media screen and (max-width: 767px)
@@ -1701,6 +1704,7 @@ font-family: Poppins-regular;
 	.bg-nau-1{
 		height: auto;
 	}
+	.bg-banner img{width:80%;}
 }
 	
 	
