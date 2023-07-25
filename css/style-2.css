@@ -140,7 +140,7 @@ footer{
 	
 }
 
-.nav ul{
+.nav-main ul{
 	display:flex;
 	list-style: none;
 	padding: 0;
@@ -149,7 +149,7 @@ footer{
 	width: 100%;
 	z-index: 0;
 }
-.nav ul li a{
+.nav-main ul li a{
 	font-size: 14px;
 	color:#222;
 	font-weight: 500;
@@ -373,13 +373,13 @@ transition: 2s;
 }
 @media screen and (max-width: 992px)
 {
-	.nav-left{display:none}	
+	.nav-left{display:none;}	
 	#btn-search{display:block}
 	.logo{text-align: left;}
 	.logo img{width:70%}
 	#btn-nav{display: block;}
-	.nav ul {flex-direction: column}
-	.nav ul li {background-color: #ccc;color:#fff}
+	.nav-main ul {flex-direction: column;}
+	.nav-main ul li {background-color: #ccc;color:#fff}
 }
 @media screen and (max-width: 767px)
 {

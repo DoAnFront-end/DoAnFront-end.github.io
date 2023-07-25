@@ -23,7 +23,7 @@
         <div class="row">
         <div class="col-lg-6 col-12">
 		<button id="btn-nav"><i class="fa-solid fa-bars"></i></button>
-		<nav class="nav mt-5">
+		<nav class="nav-main mt-5">
 			<ul>
 				<li><a href="#">Home</a></li>
 				<li><a href="#">Shop</a></li>
@@ -1252,7 +1252,7 @@
 			$('.nav-left').toggle("fade",500);
 		})
 		$('#btn-nav').click(function(){
-			$('.nav').toggle("drop",500);
+			$('.nav-main').toggle("drop",500);
 		})
 		$('#i-user').click(function(){
 			var cart=$('.cart').css('display');
@@ -1265,32 +1265,7 @@
 			}
 			
 		})
-		//$('#heart').click(function(){
-//			var cart=$('.cart').css('display') ;
-//			var login=$('.login').css('display');
-//			if (cart=='none') && (login=='none')
-//				$('.like').toggle("clip",500);
-//			else
-//			{
-//				$('.like').toggle("clip",500);
-//				$('.cart').toggle('fade',300);
-//				$('.login').toggle('drop',500);
-//			}
-//			
-//		})
-		//$('#heart').click(function(){
-//			//var cart=$('.cart').css('display');
-//			var login=$('.login').css('display');
-//			if (cart=='none') && (login=='none')
-//				$('.like').toggle("clip",500);
-//			else
-//			{
-//				$('.like').toggle("clip",500);
-//				$('.cart').toggle('fade',300);
-//				$('.login').toggle('drop',500);
-//			}
-//			
-//		})
+		
 		$('#cart-icon').click(function(){
 			var login=$('.login').css('display');
 			if (login=='none')
