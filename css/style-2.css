@@ -213,15 +213,17 @@ p{font-size: 13px;}
 	margin-left: 5px ;
 }
 .sub-banner{
-	position: relative;
-	/* overflow: hidden; */
+	background-image:url("../images/image 9.png");
+	background-size: cover ;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	justify-content: center;
+	padding:80px;
+	text-align: center;
+	color:white;
+	line-height:30px;
 }
-.sub-img{
-	position: absolute;
-	top:0;
-	left:0;
-	transition: 0.5s;
-}
+
 .sub-banner p{
 	position: absolute;
 	font-size: 13;
