@@ -293,7 +293,9 @@ p{font-size: 13px;}
 	left: 0;
 	opacity: 0;
 }
-.pr-item{margin-bottom:20px;}
+.pr-item{margin-bottom:20px;
+padding: 0 30px;
+}
 .pr-item:hover .img-1{
 opacity: 0;
 transition: 2s;
