@@ -25,19 +25,33 @@ footer{
 
 .w-50{width: 50%;}
 .nav-left{
-	width:auto;
+	position:absolute;
+	right:0px;
+	width:220px;
 	height:47px;
 	border-radius: 24px;
+	z-index:100;
 	background-color: #F2F2F2;
-}.nav-left input{
+}
+.nav-left input{
 	border:none;
 	background: none;
 	height: 47px;
+	line-height:47px;
 	margin-left: 10px;
 	font-size: 13px;
 	outline: none;
 }
-#btn-search{
+.nav-left button{
+	border:none;
+	background: none;
+	height: 47px;
+	margin-right:10px;
+	line-height:47px;
+	font-size: 13px;
+	outline: none;
+}
+/* #btn-search{
 	border:none;
 	background: none;
 	height: 47px;
@@ -45,7 +59,7 @@ footer{
 	font-size: 13px;
 	outline: none;
 	display: none;
-}
+} */
 .nav-right ul{
 	display: flex;
 	justify-content: flex-end;
@@ -60,7 +74,7 @@ footer{
 }
 .nav-right ul li i{
 	font-size: 20px;
-	color:#9f9f9f
+	color:#9f9f9f;
 	
 }
 .login{
@@ -374,7 +388,6 @@ transition: 2s;
 @media screen and (max-width: 992px)
 {
 	.nav-left{display:none;}	
-	#btn-search{display:block}
 	.logo{text-align: left;}
 	.logo img{width:70%}
 	#btn-nav{display: block;}
