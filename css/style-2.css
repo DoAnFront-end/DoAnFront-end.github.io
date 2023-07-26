@@ -199,9 +199,6 @@ p{font-size: 14px;font-weight:500;}
 	
 	
 }
-/* #cat{
-	justify-content: center;
-} */
 #cat p{font-size:16px;}
 .cat-item{
 	background-color: white;
@@ -222,53 +219,21 @@ p{font-size: 14px;font-weight:500;}
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	justify-content: center;
-	padding:80px;
+	padding:60px;
 	text-align: center;
 	color:white;
 	line-height:30px;
+	
 }
 .tay-item h4{
 	margin-top:16px;
 	
 }
-.sub-banner p{
-	position: absolute;
-	font-size: 13;
-	color: #222;
-	text-transform: uppercase;
-	top:140px;
-	left: 30px;
+.sub-banner h2{
+	font-size:32px;
+	color:white;
+	font-weight:400;
 }
-.sub-banner h1{
-	font-size: 40px;
-	color: white;
-	font-weight: lighter;
-	position:absolute;
-	right: 30px;
-	top:82px;
-}
-.sub-banner h6{
-	font-size: 15px;
-	color: white;
-	font-weight: lighter;
-	position:absolute;
-	right: 430px;
-	top:50px;
-}
-.sub-banner a{
-	position: absolute;
-	font-size: 13px;
-	color: white;
-	right: 530px;
-	top:190px;
-	text-decoration: none;
-	border-style:groove;
-}
-/* .sub-banner:hover .sub-img{
-	transform: scale(1.3);
-	transition: 2s;
-	
-} */
 .trending-pr .nav-link{
 	color:#222;
 	text-transform: uppercase;
