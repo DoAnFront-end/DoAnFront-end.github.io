@@ -258,12 +258,14 @@ p{font-size: 14px;font-weight:500;}
 	top:0;
 	left: 0;
 	opacity: 1;
+	border-radius:20px;
 }
 .img-2{
 	position: absolute;
 	top:0;
 	left: 0;
 	opacity: 0;
+	border-radius:20px;
 }
 .pr-item{margin-bottom:22px;
 padding: 0 30px;
@@ -286,10 +288,10 @@ transition: 2s;
 		
 		
 	}
-.pr-item:hover .btn-addcart{
+/* .pr-item:hover .btn-addcart{
 	opacity: 1;
 	transition: 2s;
-}
+} */
 .pr-rating{
 	display: flex;
 	padding:0;
