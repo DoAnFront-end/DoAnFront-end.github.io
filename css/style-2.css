@@ -3,7 +3,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@300;400&family=Tinos&display=swap');
 body{
 	background-color: #EFE8E0;
-	font-family: 'Cormorant', sans-serif; }
+	font-family: 'Cormorant', sans-serif;
+color:#111; }
 
 footer{
 	background-color: black;
@@ -13,13 +14,13 @@ footer{
 footer h4{font-size:20px;}
 footer p{font-size:16px;}
 
-h1{font-size: 34px;}
-h2{font-size: 27.5px;}
-h3{font-size: 22px;}
-h4{font-size: 17.5px;}
-h5{font-size: 14px;}
-h6{font-size: 11px;}
-p{font-size: 13px;}
+h1{font-size: 36px;font-weight:600;color:#333;}
+h2{font-size: 28.75px;font-weight:600;color:#333;}
+h3{font-size: 23px;font-weight:500;color:#333;}
+h4{font-size: 18.75px;font-weight:500;}
+h5{font-size: 15px;font-weight:500;}
+h6{font-size: 12px;font-weight:500;}
+p{font-size: 14px;font-weight:500;}
 .logo{
 	text-align: center;
 }
@@ -201,7 +202,7 @@ p{font-size: 13px;}
 /* #cat{
 	justify-content: center;
 } */
-#cat p{font-size:12px;}
+#cat p{font-size:16px;}
 .cat-item{
 	background-color: white;
 	width: auto;
@@ -226,7 +227,10 @@ p{font-size: 13px;}
 	color:white;
 	line-height:30px;
 }
-
+.tay-item h4{
+	margin-top:16px;
+	
+}
 .sub-banner p{
 	position: absolute;
 	font-size: 13;
@@ -415,6 +419,7 @@ transition: 2s;
 	.nav-main ul {flex-direction: column;}
 	.nav-main {display:none;}
 	.nav-main ul li {background-color: #ccc;color:#fff}
+	#cat p{font-size:11px;}
 }
 @media screen and (max-width: 767px)
 {
