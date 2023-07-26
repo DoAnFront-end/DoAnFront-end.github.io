@@ -1633,7 +1633,7 @@ font-family: Poppins-regular;
 		display:flex;
 		line-height: 45px;
 	}
-	/* .bg-nau{display:none;} */
+	.bodi{display:none;}
 	}
 
 @media screen and (max-width: 767px)
