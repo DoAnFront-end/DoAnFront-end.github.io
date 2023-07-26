@@ -459,7 +459,8 @@ footer{
 top:10px;
 right:10px;
 color:black;
-z-index:2000000;}
+z-index:2000000;
+display:none;}
 .nav-main ul{
 	display:flex;
 	list-style: none;
@@ -1706,6 +1707,7 @@ font-family: Poppins-regular;
 		height: auto;
 	}
 	.bg-banner img{width:80%;}
+	.btn-close{display:block;}
 	
 }
 	

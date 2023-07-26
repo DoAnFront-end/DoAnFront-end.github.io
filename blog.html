@@ -106,7 +106,8 @@
         <div class="bg-nau">
             <div class="container">
                 <div class="row">
-            <div class="col-9">
+                    <div class="col-lg-9 col-md-9 col-12">
+
                 <nav class="nav-main">
                     <ul>
                         <li><a href="index.html">Home</a></li>
@@ -118,9 +119,11 @@
                         <li><a href="index-jew.html">Another HomePage (Jewelry)</a></li>          
                         
                       </ul>
+            <button type="button" class="btn-close" aria-label="Close"></button>
+                      
                 </nav>
             </div>
-            <div class="col-3 mt-2 text-end">
+            <div class="col-lg-3 col-md-3 mt-2 text-end">
                 <p><i class="fa-solid fa-bullhorn fa-lg mx-3"></i>Wow!! Additional Offer</p>
             </div>
         </div>
@@ -525,6 +528,9 @@
 	
     $('#btn-nav').click(function(){
         $('.nav-main').toggle("fade",500);
+    })
+    $('.btn-close').click(function(){
+        $('.nav-main').toggle("drop",500);
     })
     $('#btn-search').click(function(){
 		
