@@ -336,7 +336,6 @@ transition: 2s;
 	width: 100%;
 	display: flex;
 	justify-content: center;
-	/* text-align: center; */
 	bottom:5px;
 	padding:0;
 	margin:0;
@@ -353,7 +352,6 @@ transition: 2s;
 	height: 32px;
 	background-color: #ccc;
 	position: absolute;
-	/* border-radius: 16px; */
 }
 .tab-pane{margin-top:20px;
 margin-bottom:25px;}
